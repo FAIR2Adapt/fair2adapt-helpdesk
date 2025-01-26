@@ -1,0 +1,31 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: cbf2fbeb-7339-4ab4-92a2-cb8233638dc2
+  title: FAIR2Adapt Helpdesk
+  description: A Community-Driven Helpdesk for the FAIR2Adapt project
+  # keywords: []
+  authors:
+    - name: Anne Fouilloux
+      orcid: https://orcid.org/0000-0002-1784-2920
+      affiliations:
+        - id: SRL
+          institution: Simula Research Laboratory, Oslo, Norway
+          ror: https://ror.org/00vn06n10
+  github: https://github.com/FAIR2Adapt/fair2adapt-helpdesk
+  banner: static/FAIR2Adapt_ColourPos_Vertical.png
+  toc:
+    - file: README.md
+    - file: getting-started.md
+
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+site:
+  template: book-theme
+  title: 👋 Welcome to the FAIR2Adapt Helpdesk!
+  options:
+     favicon: static/favicon.ico
+     logo: static/FAIR2Adapt_ColourPos_Vertical.png
+  actions:
+    - title: Getting started
+      url: /getting-started
+  domains: []

@@ -1,3 +1,4 @@
-# 👋 Welcome to the FAIR2Adapt Helpdesk!
+# 👋 Welcome to FAIR2Adapt Helpdesk!
 
-FAIR2Adapt Helpdesk and discussions.
+![Find out where and how to get help](static/helpdesk.png)
+
