@@ -27,5 +27,5 @@ site:
      logo: static/FAIR2Adapt_ColourPos_Vertical.png
   actions:
     - title: Getting started
-      url: /getting-started
+      url: /fair2adapt-helpdesk/getting-started
   domains: []
