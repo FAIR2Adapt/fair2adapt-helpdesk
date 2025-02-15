@@ -17,6 +17,10 @@ project:
   toc:
     - file: README.md
     - file: getting-started.md
+    - file: tutorials.md
+    - file: case_studies.md
+    - file: platforms.md
+    - file: key-terms.md
 
   # To autogenerate a Table of Contents, run "myst init --write-toc"
 site:
@@ -26,6 +30,6 @@ site:
      favicon: static/favicon.ico
      logo: static/FAIR2Adapt_ColourPos_Vertical.png
   actions:
-    - title: Getting started
-      url: /fair2adapt-helpdesk/getting-started
+    - title: FAIR2Adapt project
+      url: http://fair2adapt-eosc.eu
   domains: []
