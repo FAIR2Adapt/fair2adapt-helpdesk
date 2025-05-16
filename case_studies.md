@@ -4,7 +4,7 @@
 
 :::{card}
 :header: Case Study 1
-[![Arctic Radioisotopes](https://raw.githubusercontent.com/FAIR2Adapt/arctic-radioisotopes/refs/heads/main/static/thumbnail.png)](https://github.com/FAIR2Adapt/arctic-radioisotopes/)
+[![Arctic Radioisotopes](https://raw.githubusercontent.com/FAIR2Adapt/arctic-radioisotopes/refs/heads/main/static/thumbnail.png)](https://fair2adapt.github.io/arctic-radioisotopes/)
 :::
 
 :::{card}
