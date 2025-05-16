@@ -1,0 +1,17 @@
+version: 1
+project:
+  open_access: true
+  license:
+    content: CC-BY-4.0
+    code: MIT
+site:
+  template: book-theme
+  options:
+    favicon: https://raw.githubusercontent.com/FAIR2Adapt/fair2adapt-helpdesk/main/static/favicon.ico
+    logo_text: FAIR2Adapt
+
+  actions:
+    - title: FAIR2Adapt Event Calendar
+      url: https://fair2adapt.github.io/events-calendar/
+    - title: FAIR2Adapt project
+      url: http://fair2adapt-eosc.eu
