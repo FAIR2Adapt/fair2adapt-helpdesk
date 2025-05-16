@@ -32,6 +32,7 @@ site:
   options:
      favicon: static/favicon.ico
      logo: static/FAIR2Adapt_ColourPos_Vertical.png
+     logo_text: FAIR2Adapt
   actions:
     - title: FAIR2Adapt Event Calendar
       url: https://fair2adapt.github.io/events-calendar/
