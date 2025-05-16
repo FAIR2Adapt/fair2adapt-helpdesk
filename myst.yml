@@ -1,7 +1,9 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
+extends:
+  - https://raw.githubusercontent.com/FAIR2Adapt/fair2adapt-helpdesk/main/fair2adapt.yml
 project:
-  id: cbf2fbeb-7339-4ab4-92a2-cb8233638dc2
+  id: c8bd3371-151b-4650-9cb5-a64e40adf506
   title: FAIR2Adapt Helpdesk
   description: A Community-Driven Helpdesk for the FAIR2Adapt project
   # keywords: []
@@ -14,9 +16,6 @@ project:
           ror: https://ror.org/00vn06n10
   github: https://github.com/FAIR2Adapt/fair2adapt-helpdesk
   banner: static/FAIR2Adapt_ColourPos_Vertical.png
-  plugins:
-    - type: executable
-      path: ./src/gallery.py
   toc:
     - file: README.md
     - file: getting-started.md
@@ -33,9 +32,4 @@ site:
      favicon: static/favicon.ico
      logo: static/FAIR2Adapt_ColourPos_Vertical.png
      logo_text: FAIR2Adapt
-  actions:
-    - title: FAIR2Adapt Event Calendar
-      url: https://fair2adapt.github.io/events-calendar/
-    - title: FAIR2Adapt project
-      url: http://fair2adapt-eosc.eu
   domains: []
