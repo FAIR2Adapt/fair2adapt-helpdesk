@@ -6,14 +6,17 @@ project:
   description: A Community-Driven Helpdesk for the FAIR2Adapt project
   # keywords: []
   authors:
-    - name: Anne Fouilloux
-      orcid: https://orcid.org/0000-0002-1784-2920
+    - name: The FAIR2Adapt Helpdesk
+      email: f2a-helpdesk@simula.no
       affiliations:
         - id: SRL
           institution: Simula Research Laboratory, Oslo, Norway
           ror: https://ror.org/00vn06n10
   github: https://github.com/FAIR2Adapt/fair2adapt-helpdesk
   banner: static/FAIR2Adapt_ColourPos_Vertical.png
+  plugins:
+    - type: executable
+      path: ./src/gallery.py
   toc:
     - file: README.md
     - file: getting-started.md
@@ -30,6 +33,8 @@ site:
      favicon: static/favicon.ico
      logo: static/FAIR2Adapt_ColourPos_Vertical.png
   actions:
+    - title: FAIR2Adapt Event Calendar
+      url: https://fair2adapt.github.io/events-calendar/
     - title: FAIR2Adapt project
       url: http://fair2adapt-eosc.eu
   domains: []
