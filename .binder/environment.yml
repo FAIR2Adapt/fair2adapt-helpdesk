@@ -1,0 +1,27 @@
+name: fair2dapt
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - xarray
+  - folium
+  - matplotlib
+  - matplotlib-inline
+  - fsspec
+  - numpy
+  - cartopy
+  - pystac-client
+  - zarr
+  - geopandas
+  - dask
+  - rioxarray
+  - nbformat
+  - ipykernel
+  - scikit-image
+  - s3fs
+  - netcdf4
+  - hvplot
+  - bokeh
+  - holoviews
+  - stackstac
+  - pip
