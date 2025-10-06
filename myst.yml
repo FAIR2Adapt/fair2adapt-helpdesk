@@ -20,6 +20,7 @@ project:
     - file: README.md
     - file: getting-started.md
     - file: tutorials.md
+    - file: ROHub-library-FAIR2Adapt-demo.ipynb
     - file: case_studies.md
     - file: platforms.md
     - file: key-terms.md
